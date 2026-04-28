@@ -1,73 +1,53 @@
-# 🧠 Project Logic_Gates v2
+# 🧠 MemoryLeak
 
-A simulator and educational tool that demonstrates **how computers work from the ground up — from transistors to the command-line interface (CLI)**. Built with [Godot Engine](https://godotengine.org/) using GDScript.
+> **Removing the "magic" from computers — from a single transistor to a working processor.**
 
----
+[![Status](https://img.shields.io/badge/status-alpha-orange)](https://memory-leak.com)
+[![Live](https://img.shields.io/badge/live-memory--leak.com-blue)](https://memory-leak.com)
+[![Stack](https://img.shields.io/badge/stack-Godot%20%2B%20Vite%20%2B%20React-purple)]()
 
-## 🎯 Main Goal
-
-The goal of this project is to:
-
-- **Simulate the fundamental building blocks of digital logic** — transistors, logic gates, registers, memory, and more.
-- **Visualize their behavior** through an intuitive graphical interface.
-- **Explain the journey from a simple electrical signal to a fully functioning computer** — including a working CLI.
+🌐 **[memory-leak.com](https://memory-leak.com)**
 
 ---
 
-## 🔧 Features
+## What it is
 
-- Interactive simulation of logic circuits (gates, switches, bulbs, etc.).
-- Custom signal propagation and update system.
-- Planned support for:
-  - Flip-flops and registers
-  - ALU and RAM
-  - Basic CPU structure
-  - Microcode and instruction decoding
-  - Command-line interface (CLI) as the final stage of simulation
+MemoryLeak is an interactive learning tool that walks you from a
+**single transistor** all the way up to a **working processor and
+basic assembly**. No magic, no hand-waving, no jumping over the
+parts that actually matter.
 
----
+Most computer science education either stops at logic gates or
+skips straight to high-level languages. MemoryLeak fills the gap.
 
-## 🧩 Technologies Used
+## Who it's for
 
-- [Godot Engine](https://godotengine.org/) 4.x  
-- GDScript  
-- (Optional: Planned integration with Python/Lua CLI simulator)
+- Students learning how computers work
+- Self-learners who never got past "ok but how does it actually run"
+- Teachers who want a hands-on way to teach digital logic
 
----
+## How it works
 
-## 🗺️ Simulation Roadmap
+You start by wiring transistors. Then logic gates. Then arithmetic.
+Then registers. Then a tiny processor. By the end you understand
+why your code does what it does — not just what to type.
 
-1. **Electronic Components** – transistors, switches  
-2. **Logic Circuits** – AND, OR, NOT, XOR, etc.  
-3. **Memory & Processing** – registers, ALU, RAM  
-4. **Control Logic** – instruction decoding  
-5. **CLI Interpretation** – basic commands like `echo`, `set`, `add`, etc.
+## Tech stack
 
----
+| Layer | Tech |
+|---|---|
+| Game engine | Godot (GDScript) |
+| Web shell | Vite + React + Tailwind |
+| AI | Groq Cloud API |
+| Infra | Vercel + Cloudflare Workers |
 
-## 🚧 Project Status
+## Status
 
-**Actively in development** — version 2 is a major step forward from the original simulation. Features are being added continuously.
+🟡 **Alpha** — first testers using it, active development.
 
-- [x] Logic gates and wiring  
-- [x] Dynamic signal updating  
-- [ ] Flip-flops and registers  
-- [ ] ALU and RAM  
-- [ ] CPU and microinstructions  
-- [ ] CLI simulator  
 
----
+## Team
 
-## 📜 License
-
-This project is protected under a **custom license**:
-
-- You **may not** copy, redistribute, or modify any part of the source code.
-- You **may not** publish this code under your own name or project.
-- You **may not** use this code in commercial projects.
-- You **may view and study the code** for educational and non-commercial purposes only.
-- If you want to use any part of this project, you must obtain **explicit written permission** from the author.
-
-© Martin Pavlik, Matúš Kuruc, Dominik Klokočka, 2025 — All rights reserved.
-
----
+- **Martin Pavlik** ([@Balestruci0o](https://github.com/Balestruci0o)) — Founder, lead developer, game design
+- **Matúš Kuruc** ([@Finisher28](https://github.com/Finisher28)) — Graphics, visual identity
+- **Dominik Klokočka** ([@DANDO158](https://github.com/DANDO158)) — Concept feedback
