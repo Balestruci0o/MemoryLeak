@@ -10,6 +10,9 @@
 
 ---
 
+**[!IMPORTANT]**
+**Note:** This repository serves as a public showcase and documentation hub only. The full production source code is hosted in a private repository to prevent unauthorized copying and protect intellectual property.
+
 ## What it is
 
 MemoryLeak is an interactive learning tool that walks you from a
